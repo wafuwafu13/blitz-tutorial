@@ -9,7 +9,6 @@ web_modules/
 
 # blitz
 /.blitz/
-/.next/
 *.sqlite
 .now
 .blitz-console-history

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default async function logout(_, {\n  session\n}) {\n  return await session.revoke();\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useQuery } from \"blitz\";\nimport getCurrentUser from \"app/users/queries/getCurrentUser\";\nexport const useCurrentUser = () => {\n  const [user] = useQuery(getCurrentUser, null);\n  return user;\n};","map":null,"metadata":{},"sourceType":"module"}

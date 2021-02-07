@@ -1,0 +1,13 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/auth/mutations/login": "pages/api/auth/mutations/login.js",
+  "/api/auth/mutations/logout": "pages/api/auth/mutations/logout.js",
+  "/api/auth/mutations/signup": "pages/api/auth/mutations/signup.js",
+  "/api/users/queries/getCurrentUser": "pages/api/users/queries/getCurrentUser.js",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/signup": "pages/signup.html",
+  "/_error": "pages/_error.js"
+}

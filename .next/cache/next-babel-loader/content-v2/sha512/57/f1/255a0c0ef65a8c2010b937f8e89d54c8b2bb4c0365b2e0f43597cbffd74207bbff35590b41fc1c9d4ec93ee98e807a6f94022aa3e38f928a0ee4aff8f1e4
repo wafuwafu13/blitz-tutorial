@@ -1,0 +1,1 @@
+{"ast":null,"code":"import * as z from \"zod\";\nexport var SignupInput = z.object({\n  email: z.string().email(),\n  password: z.string().min(10).max(100)\n});\nexport var LoginInput = z.object({\n  email: z.string().email(),\n  password: z.string()\n});","map":null,"metadata":{},"sourceType":"module"}
